@@ -1,27 +1,22 @@
 import '../styles/style.scss';
 
-const slickOptions = {
-  infinite: true,
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  nextArrow: '.speakers-next-btn',
-  variableWidth: true,
-};
-
 $(document).ready(function () {
-  $('.speakers-container').slick(slickOptions);
+  $('.speakers-container').slick({
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    nextArrow: '.speakers-next-btn',
+    variableWidth: true,
+  });
 });
 
 const list = document.querySelector('.list'),
   table = document.querySelector('.table'),
   toggleDescBtn = document.querySelector('.list-event-program-toggle-btn'),
   desc = document.querySelector('.list-event-program-description'),
-  eventDesc = document.querySelector('.list-event-description-container'),
-  eventAddBtn = document.querySelector('.list-event-add'),
   addBtnContainer = document.querySelector('.list-event-add-btn-container'),
   addBtn = document.querySelector('.list-event-add-btn'),
   addBtnIcon = document.querySelector('.list-event-add-btn-icon'),
-  speakers = document.querySelector('.speakers'),
   scheduleViewBtn = document.querySelector('.toggle-view-btn'),
   scheduleView = document.querySelector('.schedule-view'),
   addToCalendarBtn = document.querySelectorAll('.add-to-calendar-btn');
@@ -60,16 +55,3 @@ function toggleSubscription() {
     ? (addBtn.innerHTML = 'Добавлено')
     : (addBtn.innerHTML = 'Добавить');
 }
-
-window.addEventListener(
-  'resize',
-  function () {
-    if (window.innerWidth <= 992) {
-      speakers.append(eventAddBtn);
-      eventAddBtn.classList.add('');
-    } else {
-      eventDesc.append(eventAddBtn);
-    }
-  },
-  true
-);
