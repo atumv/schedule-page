@@ -70,7 +70,7 @@ a {
 
 .title {
   color: #000222;
-  font-family: 'ProximaNova-Extrabld';
+  font-family: 'ProximaNova-Extrabld', Arial, sans-serif; 
   font-size: 3rem;
   margin-top: 3rem;
 
@@ -80,7 +80,7 @@ a {
 }
 
 .toggle-view-btn {
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   border-radius: 30px;
   background: transparent;
   color: #000222;
@@ -120,7 +120,7 @@ a {
 }
 
 .list-event-date {
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   font-size: 1.5rem;
   padding: 1rem 0;
   background-color: #e5e5e5;
@@ -154,7 +154,7 @@ a {
 }
 
 .list-event-time {
-  font-family: 'ProximaNova-Extrabld';
+  font-family: 'ProximaNova-Extrabld', Arial, sans-serif;
   font-size: 2.25rem;
   color: #000222;
   width: 260px;
@@ -167,7 +167,7 @@ a {
 }
 
 .list-event-timezone {
-  font-family: 'ProximaNova-Extrabld';
+  font-family: 'ProximaNova-Extrabld', Arial, sans-serif;
   font-size: 1rem;
   vertical-align: text-top;
   margin-left: 7px;
@@ -187,7 +187,7 @@ a {
 }
 
 .list-event-title {
-  font-family: 'ProximaNova-Bold';
+  font-family: 'ProximaNova-Bold', Arial, sans-serif;
   font-size: 1rem;
   color: #000222;
   margin-top: 0;
@@ -202,7 +202,7 @@ a {
 }
 
 .list-event-about {
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   color: #000222;
 
   @media (max-width: $phone) {
@@ -215,7 +215,7 @@ a {
 }
 
 .list-event-program-toggle-btn {
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   background-color: #f0f0f0;
   color: #000222;
   border-radius: 8px;
@@ -231,7 +231,7 @@ a {
 }
 
 .list-event-program-description {
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   background-color: #f0f0f0;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
@@ -315,7 +315,7 @@ a {
 }
 
 .list-event-add-btn {
-  font-family: 'ProximaNova-Bold';
+  font-family: 'ProximaNova-Bold', Arial, sans-serif;
   background-color: #ffffff;
   border: 1px solid #185adb;
   border-radius: 25px;
@@ -348,7 +348,7 @@ a {
 .list-event-add-btn-icon::after {
   content: '+';
   font-size: 1.9rem;
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
 }
 
 .list-event-add-btn-icon.list-event-add-btn-enabled::after {
@@ -358,7 +358,7 @@ a {
 .list-event-add-btn-icon.list-event-add-btn-enabled {
   transform: rotate(0deg);
   font-size: 2.2rem;
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   width: 16px;
   height: 8px;
   right: 19px;
@@ -376,7 +376,7 @@ a {
 }
 
 .subscribers-count {
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   color: #000222;
   display: block;
   margin-top: 1rem;
@@ -391,7 +391,7 @@ a {
 }
 
 .speakers-title {
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   color: #e5e5e5;
   font-size: 1rem;
   margin: 0;
@@ -433,7 +433,7 @@ a {
 
   &-name {
     display: block;
-    font-family: 'ProximaNova-Extrabld';
+    font-family: 'ProximaNova-Extrabld', Arial, sans-serif;
     font-size: 1rem;
     color: #000222;
     margin-bottom: 0.2rem;
@@ -441,7 +441,7 @@ a {
 
   &-org {
     display: block;
-    font-family: 'ProximaNova-Regular';
+    font-family: 'ProximaNova-Regular', Arial, sans-serif;
     font-size: 0.688rem;
     color: #000222;
   }
@@ -489,13 +489,13 @@ a {
 }
 
 .order-title {
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   font-size: 1.125rem;
   color: #888;
 }
 
 .week-btn {
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   font-size: 1.125rem;
   color: #191919;
   padding: 0.5rem 1rem;
@@ -548,7 +548,7 @@ a {
 }
 
 .time {
-  font-family: 'ProximaNova-Extrabld';
+  font-family: 'ProximaNova-Extrabld', Arial, sans-serif;
   color: #000222;
   font-size: 0.875rem;
 }
@@ -569,13 +569,13 @@ a {
 }
 
 .table-event-time {
-  font-family: 'ProximaNova-Extrabld';
+  font-family: 'ProximaNova-Extrabld', Arial, sans-serif;
   font-size: 1rem;
   color: #000222;
 }
 
 .table-event-time-timezone {
-  font-family: 'ProximaNova-Extrabld';
+  font-family: 'ProximaNova-Extrabld', Arial, sans-serif;
   font-size: 0.6875rem;
   color: #000222;
   vertical-align: text-top;
@@ -594,7 +594,7 @@ a {
 }
 
 .live-text {
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   font-size: 0.6875rem;
   color: #ff0011;
 }
@@ -610,7 +610,7 @@ a {
 }
 
 .company {
-  font-family: 'ProximaNova-SemiboldIt';
+  font-family: 'ProximaNova-SemiboldIt', Arial, sans-serif;
   font-size: 0.6875rem;
   color: #185adb;
   display: block;
@@ -618,7 +618,7 @@ a {
 }
 
 .table-event-description-header {
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   margin: 0;
@@ -631,7 +631,7 @@ a {
 }
 
 .add-to-calendar-btn {
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   font-size: 0.6875rem;
   color: #888899;
   background-color: #fff;
@@ -654,7 +654,7 @@ a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  font-family: 'ProximaNova-Extrabld';
+  font-family: 'ProximaNova-Extrabld', Arial, sans-serif;
   color: #185adb;
   background-color: #fff;
   font-size: 1.4rem;
@@ -676,7 +676,7 @@ a {
   height: 34px;
   right: 2px;
   top: -6px;
-  font-family: 'ProximaNova-Regular';
+  font-family: 'ProximaNova-Regular', Arial, sans-serif;
   font-size: 1rem;
   border: 1px solid #c0c0c0;
   background-color: #f0f0f0;
@@ -692,7 +692,7 @@ a {
   transform: rotate(0deg);
   border: 1px solid #e5e5e5;
   padding: 1rem;
-  font-family: 'ProximaNova-Bold';
+  font-family: 'ProximaNova-Bold', Arial, sans-serif;
   font-size: 1.5rem;
   border-radius: 50px;
   position: absolute;
@@ -710,14 +710,14 @@ a {
 }
 
 .networking-day-header {
-  font-family: 'ProximaNova-Extrabld';
+  font-family: 'ProximaNova-Extrabld', Arial, sans-serif;
   color: #191919;
   font-size: 1rem;
   margin: 0;
 }
 
 .networking-btn {
-  font-family: 'ProximaNova-Extrabld';
+  font-family: 'ProximaNova-Extrabld', Arial, sans-serif;
   font-size: 0.875rem;
   color: #000222;
   padding: 0.5rem 1.5rem;
