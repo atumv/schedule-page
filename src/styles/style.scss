@@ -566,6 +566,8 @@ a {
   padding: 0 1rem;
   margin: 0 auto;
   padding-top: 1rem;
+  max-height: 180px;
+  overflow: hidden;
 }
 
 .table-event-time {
@@ -707,6 +709,10 @@ a {
 
 .networking-day {
   height: calc(100% - 50px);
+}
+
+.networking-day-container {
+  max-height: none;
 }
 
 .networking-day-header {
