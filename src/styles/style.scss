@@ -1,3 +1,7 @@
+$phone: 320px;
+$tablet: 576px;
+$laptop: 992px;
+
 @font-face {
   font-family: 'ProximaNova-Bold';
   src: url('../fonts/ProximaNova-Bold.woff');
@@ -53,7 +57,7 @@ a {
   padding: 0 3rem;
   margin: 0 auto;
 
-  @media (max-width: 576px) {
+  @media (max-width: $tablet) {
     padding: 0 1.5rem;
   }
 }
@@ -70,7 +74,7 @@ a {
   font-size: 3rem;
   margin-top: 3rem;
 
-  @media (max-width: 320px) {
+  @media (max-width: $phone) {
     font-size: 2.25rem;
   }
 }
@@ -85,7 +89,7 @@ a {
   font-size: 1rem;
   padding: 0.8rem 1.2rem;
 
-  @media (max-width: 1024px) {
+  @media (max-width: $laptop) {
     display: none;
   }
 }
@@ -144,7 +148,7 @@ a {
   display: flex;
   position: relative;
 
-  @media (max-width: 576px) {
+  @media (max-width: $tablet) {
     flex-direction: column;
   }
 }
@@ -156,7 +160,7 @@ a {
   width: 260px;
   margin-right: 3rem;
 
-  @media (max-width: 576px) {
+  @media (max-width: $tablet) {
     font-size: 1.5rem;
     margin-right: 1.25rem;
   }
@@ -168,7 +172,7 @@ a {
   vertical-align: text-top;
   margin-left: 7px;
 
-  @media (max-width: 320px) {
+  @media (max-width: $phone) {
     font-size: 0.875rem;
   }
 }
@@ -176,7 +180,7 @@ a {
 .list-event-text {
   margin-right: 3rem;
 
-  @media (max-width: 576px) {
+  @media (max-width: $tablet) {
     margin-top: 1rem;
     margin-right: 0rem;
   }
@@ -188,7 +192,7 @@ a {
   color: #000222;
   margin-top: 0;
 
-  @media (max-width: 320px) {
+  @media (max-width: $phone) {
     font-size: 0.875rem;
   }
 }
@@ -201,7 +205,7 @@ a {
   font-family: 'ProximaNova-Regular';
   color: #000222;
 
-  @media (max-width: 320px) {
+  @media (max-width: $phone) {
     font-size: 0.875rem;
   }
 }
@@ -248,7 +252,7 @@ a {
   text-align: center;
   display: block;
 
-  @media (max-width: 992px) {
+  @media (max-width: $laptop) {
     display: none;
   }
 }
@@ -257,7 +261,7 @@ a {
   text-align: center;
   display: none;
 
-  @media (max-width: 992px) {
+  @media (max-width: $laptop) {
     padding: 0 2rem;
     display: block;
   }
@@ -301,7 +305,7 @@ a {
     }
   }
 
-  @media (max-width: 992px) {
+  @media (max-width: $laptop) {
     margin: 0 auto;
     margin-top: 2.5rem;
     margin-bottom: 0.5rem;
@@ -460,7 +464,7 @@ a {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 
-  @media (max-width: 992px) {
+  @media (max-width: $laptop) {
     top: calc(30% - 28px);
   }
 }
