@@ -4,22 +4,26 @@ $laptop: 992px;
 
 @font-face {
   font-family: 'ProximaNova-Bold';
-  src: url('../fonts/ProximaNova-Bold.woff');
+  src: url('../fonts/ProximaNova-Bold.woff') format('woff'),
+       url('../fonts/ProximaNova-Bold.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'ProximaNova-Extrabld';
-  src: url('../fonts/ProximaNova-Extrabld.woff');
+  src: url('../fonts/ProximaNova-Extrabld.woff') format('woff'),
+       url('../fonts/ProximaNova-Extrabld.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'ProximaNova-Regular';
-  src: url('../fonts/ProximaNova-Regular.woff');
+  src: url('../fonts/ProximaNova-Regular.woff') format('woff'),
+       url('../fonts/ProximaNova-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'ProximaNova-SemiboldIt';
-  src: url('../fonts/ProximaNova-SemiboldIt.woff');
+  src: url('../fonts/ProximaNova-SemiboldIt.woff') format('woff'),
+       url('../fonts/ProximaNova-SemiboldIt.woff2') format('woff2');
 }
 
 *,
